@@ -23,10 +23,11 @@ int main()
     const int dim = 3;   //Dimension of feature
     const int cluster_num = 4; //Cluster number
 
+	//Test k-meams
     KMeans* kmeans = new KMeans(dim,cluster_num);
     int* labels = new int[size];
     kmeans->SetInitMode(KMeans::InitUniform);
-	kmeans->Cluster(data,size,labels);
+    kmeans->Cluster(data,size,labels);
 
 	printf("Clustering result by k-meams:\n");
 	for(int i = 0; i < size; ++i)
@@ -44,6 +45,7 @@ int main()
         10.3, 10.4, 10.5
     };
 
+	//Test GMM
     GMM *gmm = new GMM(dim,3); //GMM has 3 SGM
     gmm->Train(data,size); //Training GMM
 
