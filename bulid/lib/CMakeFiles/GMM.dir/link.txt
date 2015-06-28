@@ -1,0 +1,1 @@
+g++  -fPIC -Wall -std=c++11 -g   -shared -Wl,-soname,libGMM.so -o libGMM.so CMakeFiles/GMM.dir/KMeans.cpp.o CMakeFiles/GMM.dir/GMM.cpp.o -L/home/exbot/Documents/GMM-master/lib 

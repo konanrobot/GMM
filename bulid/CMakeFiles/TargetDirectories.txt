@@ -1,0 +1,2 @@
+/home/exbot/Documents/GMM-master/bulid/lib/CMakeFiles/GMM.dir
+/home/exbot/Documents/GMM-master/bulid/bin/CMakeFiles/GMM_test.dir
