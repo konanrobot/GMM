@@ -1,8 +1,8 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/GMM.dir/KMeans.cpp.o"
   "CMakeFiles/GMM.dir/GMM.cpp.o"
-  "libGMM.pdb"
-  "libGMM.so"
+  "../../lib/libGMM.pdb"
+  "../../lib/libGMM.so"
 )
 
 # Per-language clean rules from dependency scanning.

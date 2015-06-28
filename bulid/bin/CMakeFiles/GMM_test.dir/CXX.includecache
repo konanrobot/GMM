@@ -6,33 +6,3 @@
 
 #IncludeRegexTransform: 
 
-../include/GMM.h
-fstream
--
-string.h
--
-assert.h
--
-
-../include/KMeans.h
-fstream
--
-string.h
--
-assert.h
--
-
-/home/exbot/Documents/GMM-master/src/main.cpp
-iostream
--
-fstream
--
-string.h
--
-assert.h
--
-KMeans.h
-/home/exbot/Documents/GMM-master/src/KMeans.h
-GMM.h
-/home/exbot/Documents/GMM-master/src/GMM.h
-

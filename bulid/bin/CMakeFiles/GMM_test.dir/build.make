@@ -77,7 +77,7 @@ GMM_test_OBJECTS = \
 GMM_test_EXTERNAL_OBJECTS =
 
 ../bin/GMM_test: bin/CMakeFiles/GMM_test.dir/main.cpp.o
-../bin/GMM_test: lib/libGMM.so
+../bin/GMM_test: ../lib/libGMM.so
 ../bin/GMM_test: bin/CMakeFiles/GMM_test.dir/build.make
 ../bin/GMM_test: bin/CMakeFiles/GMM_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../bin/GMM_test"

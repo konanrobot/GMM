@@ -1,1 +1,1 @@
-g++   -Wall -std=c++11 -g    CMakeFiles/GMM_test.dir/main.cpp.o  -o ../../bin/GMM_test -rdynamic -L/home/exbot/Documents/GMM-master/lib ../lib/libGMM.so -Wl,-rpath,/home/exbot/Documents/GMM-master/lib:/home/exbot/Documents/GMM-master/bulid/lib 
+g++   -Wall -std=c++11 -g    CMakeFiles/GMM_test.dir/main.cpp.o  -o ../../bin/GMM_test -rdynamic -L/home/exbot/Documents/GMM-master/lib ../../lib/libGMM.so -Wl,-rpath,/home/exbot/Documents/GMM-master/lib 
